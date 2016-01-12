@@ -2,7 +2,7 @@
   "name": "react-jstree",
   "version": "1.0.0",
   "description": "React wrapper for jstree",
-  "main": "dist/react-jstree.js",
+  "main": "src/ReactJstree.js",
   "scripts": {
     "lint": "eslint src",
     "start": "gulp dev",
