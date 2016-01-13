@@ -51,6 +51,9 @@ var ReactJstree = React.createClass({
             .on('select_node.jstree', (...args)=> {
                 props.onSelect && props.onSelect(...args);
             })
+            .on('open_node.jstree', (...args)=> {
+                props.onOpen && props.onOpen(...args);
+            })
             .on('changed.jstree', (...args)=> {
                 props.onSelectedChange && props.onSelectedChange(...args);
             })
